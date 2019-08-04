@@ -59,7 +59,7 @@ public class NQueenProblem {
 			
 			numOfGeneration = scn.next();
 			iteration = Integer.parseInt(numOfGeneration);
-			
+			scn.close();
 
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
